@@ -42,16 +42,9 @@ mixin PresentationHelper {
   static BorderRadiusGeometry defaultBorderRadiusR10 = const BorderRadius.all(Radius.circular(22));
 
   //* Button styles *//
-  static ButtonStyle defaultButtonStyle = ButtonStyle(
-    shape: MaterialStateProperty.all(
-      RoundedRectangleBorder(
-        borderRadius: PresentationHelper.defaultBorderRadiusR5,
-        side: const BorderSide(color: ColorConst.primaryColor, width: 1),
-      ),
-    ),
-    elevation: MaterialStateProperty.all(0),
-    backgroundColor: MaterialStateProperty.all(ColorConst.primaryColor),
-    foregroundColor: MaterialStateProperty.all(ColorConst.onPrimaryColor),
-    overlayColor: MaterialStateProperty.all(ColorConst.secondaryColor),
-  );
+  static ButtonStyle defaultButtonStyle = ButtonStyle(shape: MaterialStateProperty.all(RoundedRectangleBorder(borderRadius: PresentationHelper.defaultBorderRadiusR5, side: const BorderSide(color: ColorConst.primaryColor, width: 1))), elevation: MaterialStateProperty.all(0), backgroundColor: MaterialStateProperty.all(ColorConst.primaryColor), foregroundColor: MaterialStateProperty.all(ColorConst.onPrimaryColor), overlayColor: MaterialStateProperty.all(ColorConst.secondaryColor));
+
+  //* Heading styles *//
+
+  static TextStyle defaultHeadingStyleH1 = const TextStyle(color: ColorConst.primaryColor, fontSize: 50, fontWeight: FontWeight.w800, decoration: TextDecoration.none);
 }

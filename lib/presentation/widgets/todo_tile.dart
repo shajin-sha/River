@@ -24,10 +24,11 @@ class TodoTitle extends ConsumerWidget {
                 ShaAlert.showHozzoAlert(
                   context,
                   title: "Delete? 🤐🗑️",
-                  message: "Are you sure you want to delete this todo?",
+                  message: "Are you sure you want to delete this todo?\nThis action cannot be undone.",
                   firstButtonTitle: "Yes, delete",
                   secondButtonTitle: "No, cancel",
-                  firstButtonType: ButtonType.negative,
+                  firstButtonType: ButtonType.primary,
+                  primaryColor: ColorConst.primaryColor,
                   secondButtonType: ButtonType.secondary,
                   onFirstButtonPressed: () {
                     ref.read(todoState.notifier).remove(ref.read(todoState)[index]);

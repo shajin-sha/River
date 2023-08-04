@@ -11,8 +11,13 @@ class TodoList extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     return Expanded(
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const SizedBox(height: 10),
+          Padding(
+            padding: EdgeInsets.only(left: PresentationHelper.defaultPaddingP7.horizontal),
+            child: Text("Todo", style: PresentationHelper.defaultHeadingStyleH1),
+          ),
           Expanded(
             child: Padding(
               padding: PresentationHelper.defaultPaddingP7,

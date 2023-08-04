@@ -1,16 +1,27 @@
-# river
+# River 🏞️
+River is an todo app made with Riverpod with UX and simplicity in mind 😉.
+This is made for learning purpose only and not for production use 😅.
 
-A new Flutter project.
+## But still open for contribution 🤩
+If you want to contribute to this project, you can do so by following the steps below:
+- Fork this repo
+- Clone the forked repo
+- Create a new branch
+- Make changes
+- Push the changes
 
-## Getting Started
+And Learn to create and matin a flutter app with Riverpod and app with good UX and simplicity in mind.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## River is made with
+- **Riverpod**
+- **Flutter Freezed models**
+- **Clean architecture**
+- **Hive**
+- **UX in mind 😉😊.**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+<div>
+  <img width='45%' src='./Screenshot 2023-08-05 at 12.26.22 AM.png'/>
+  <img width='45%' src='./Screenshot 2023-08-05 at 12.25.39 AM.png'/>
+</div>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
